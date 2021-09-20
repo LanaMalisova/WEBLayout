@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,15 @@
   <title>Lagoona</title>
 </head>
 <body>
+  <h1 class="visually-hidden"></h1>
   <header>
-    <img class="header-logo" src="img/logo.png" alt="Логотип Lagoona">
-    <address class="phone">
-      <a href="tel:+74953225448">
-        +7 495 322 54 48
-      </a>
-      <a class="personal-cab" href="#">Личный кабинет</a>
-    </address>
+    <div class="header-top">
+      <a><img class="header-logo" src="img/logo.png" alt="Логотип Lagoona"></a>
+        <a href="tel:+74953225448">
+          +7 495 322 54 48
+        </a>
+        <a class="personal-cab" href="#">Личный кабинет</a>
+    </div>
     <nav class="header-nav">
       <ul>
         <li><a class="navig-link" href="#">
@@ -51,47 +52,54 @@
     </nav>
   </header>
   <main>
-    <div class="container">
-      <section>
+    <section>
+      <div class="container">
         <h2 class="title">
           Спецпредложения
         </h2>
         <ul>
-          <li class="spesial-offer-item spetial-pic">
-            <h3 class="item-title">
-              Мальдивские острова
-            </h3>
-            <p>
-              от 55 000р
-            </p>
-            <a class="else arrow" href="#">
-              Подробнее
-            </a>
-          </li>
-          <li class="spesial-offer-item spetial-pic">
-            <h3 class="item-title">
-              Номера категории люкс
-            </h3>
-            <p>
-              от 5000р
-            </p>
-            <a class="else arrow" href="#">
-              Подробнее
-            </a>
-          </li>
-          <li class="spesial-offer-item spetial-pic">
-            <h3 class="item-title">
-              Горящий тур на остров Крит
-            </h3>
-            <p>
-              от 30 000р
-            </p>
-            <a class="else arrow" href="#">
-              Подробнее
-            </a>
-          </li>
+          <div class="card">
+            <li class="spesial-offer-item spetial-pic">
+              <h3 class="item-title">
+                Мальдивские острова
+              </h3>
+              <span>
+                от 55 000р
+              </span>
+              <a class="else arrow" href="#">
+                Подробнее
+              </a>
+             </li>
+          </div>
+          <div class="card">
+            <li class="spesial-offer-item spetial-pic">
+              <h3 class="item-title">
+                Номера категории люкс
+              </h3>
+              <span>
+                от 5000р
+              </span>
+              <a class="else arrow" href="#">
+                Подробнее
+              </a>
+            </li>
+          </div>
+          <div class="card">
+            <li class="spesial-offer-item spetial-pic">
+              <h3 class="item-title">
+                Горящий тур на остров Крит
+              </h3>
+              <span>
+                от 30 000р
+              </span>
+              <a class="else arrow" href="#">
+                Подробнее
+              </a>
+            </li>
+          </div>
         </ul>
-      </section>
+      </div>
+    </section>
       <section>
         <h2 class="title">
           О нас
@@ -106,68 +114,79 @@
         </h2>
         <ul>
           <li class="card card-pict1">
-            <a class="else arrow" href="#">
-              Эксклюзивное обслуживание
-            </a>
-            Равным образом постоянный количественный рост и сфера нашей активности
+            <h3>
+              <a class="else arrow" href="#">
+                Эксклюзивное обслуживание
+              </a>
+            </h3>
+            <p>Равным образом постоянный количественный рост и сфера нашей активности</p>
           </li>
           <li class="card card-pict2">
-            <a class="else arrow" href="#">
-              Аренда банкетных залов
-            </a>
-            Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
+            <h3>
+              <a class="else arrow" href="#">
+                Аренда банкетных залов
+              </a>
+            </h3>
+            <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
           </li>
           <li class="card card-pict3">
-            <a class="else arrow" href="#">
-              Сауны, бассейны, бани, фитнес-залы
-            </a>
-            Не следует, однако забывать, что начало повседневной работы по формированию позиции
+            <h3>
+              <a class="else arrow" href="#">
+                Сауны, бассейны, бани, фитнес-залы
+              </a>
+            </h3>
+            <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
           </li>
           <li class="card card-pict4">
-            <a class="else arrow" href="#">
-              Охраняемые автомобильные стоянки
-            </a>
-            Не следует, однако забывать, что начало повседневной работы по формированию позиции
+            <h3>
+              <a class="else arrow" href="#">
+                Охраняемые автомобильные стоянки
+              </a>
+            </h3>
+            <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2 class="title">
-          Преимущества
-        </h2>
-        <ul>
-          <li class="benefits-card b-pict1">
-            Идейные соображения высшего порядка, а также постоянный количественный рост
-          </li>
-          <li class="benefits-card b-pict2">
-            Значимость этих проблем настолько очевидна, что вопрос остается открытым
-          </li>
-          <li class="benefits-card b-pict3">
-            Таким образом реализация плановых заданий играет важную роль для понимания
-          </li>
-          <li class="benefits-card b-pict4">
-            Повседневная практика показывает, что сложившаяся структура организации
-          </li>
-          <li class="benefits-card b-pict5">
-            Равным образом рамки и место обучения кадров способствует подготовки сотрудника
-          </li>
-          <li class="benefits-card b-pict6">
-            Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса
-          </li>
-          <li class="benefits-card b-pict7">
-            Повседневная практика показывает, что дальнейшее развитие различных форм
-          </li>
-          <li class="benefits-card b-pict8">
-            Значимость этого настолько очевидна, что консультация наших экспертов помогает
-          </li>
-        </ul>
+        <div class="container-benefits">
+          <h2 class="title">
+            Преимущества
+          </h2>
+          <ul>
+            <li class="benefits-card b-pict1">
+              Идейные соображения высшего порядка, а также постоянный количественный рост
+            </li>
+            <li class="benefits-card b-pict2">
+              Значимость этих проблем настолько очевидна, что вопрос остается открытым
+            </li>
+            <li class="benefits-card b-pict3">
+              Таким образом реализация плановых заданий играет важную роль для понимания
+            </li>
+            <li class="benefits-card b-pict4">
+              Повседневная практика показывает, что сложившаяся структура организации
+            </li>
+            <li class="benefits-card b-pict5">
+              Равным образом рамки и место обучения кадров способствует подготовки сотрудника
+            </li>
+            <li class="benefits-card b-pict6">
+              Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса
+            </li>
+            <li class="benefits-card b-pict7">
+              Повседневная практика показывает, что дальнейшее развитие различных форм
+            </li>
+            <li class="benefits-card b-pict8">
+              Значимость этого настолько очевидна, что консультация наших экспертов помогает
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
         <h2 class="title">
           Размещение
         </h2>
-        <ul>
-          <li>
+        <article>
+          <img class="hotels-pic" src="img/hotels1.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>4698р</strong>/ночь
             </p>
@@ -176,17 +195,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona española
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona española
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels2.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -195,17 +217,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona son típicas
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona son típicas
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels3.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -214,17 +239,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona de la guerra
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona de la guerra
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels4.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -233,17 +261,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona mentira piadosa
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona mentira piadosa
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels5.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -252,17 +283,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona empujar la creatividad
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona empujar la creatividad
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels6.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -271,17 +305,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona el retorno
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona el retorno
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels7.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -290,17 +327,20 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona mentira piadosa
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona mentira piadosa
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <img class="hotels-pic" src="img/hotels8.png" alt="Фото отеля">
+          <div>
             <p>
               от <strong>6254р</strong>/ночь
             </p>
@@ -309,24 +349,23 @@
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star.png" alt="">
             <img class="star" src="img/i-star-empty.png" alt="">
-            <p class="hotel-name">
-              Lagoona suerte siguió siempre
-            </p>
-            <p class="location">
-              Барселона, Испания
-            </p>
-            <button class="rooms">
-              Номера
-            </button>
-          </li>
-          <li>
-            <a class="all arrow" href="#">
-              Посмотреть все варианты
-            </a>
-          </li>
-        </ul>
+          </div>
+          <h3 class="hotel-name">
+            Lagoona suerte siguió siempre
+          </h3>
+          <p class="location">
+            Барселона, Испания
+          </p>
+          <button class="rooms">
+            Номера
+          </button>
+        </article>
+        <article>
+          <a class="all arrow" href="#">
+            Посмотреть все варианты
+          </a>
+        </article>
       </section>
-    </div>
   </main>
 </body>
 </html>
